@@ -1,0 +1,135 @@
+/* Medium screens (tablets, below 992px) */
+@media (max-width: 992px) {
+    .top-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .navbar .navlinks {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .hero-content,
+    .hero .hero-image {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .donation-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .categories {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-panel,
+    .right-panel {
+        width: 100%;
+    }
+
+    .live-services-counter .live-counters {
+        display: flex;
+        gap: 40px;
+        padding: 30px;
+        min-height: 1200px;
+    }
+
+    .email-section .email input {
+        width: 100%;
+    }
+
+    .email span {
+        width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .footer-left,
+    .footer-column {
+        width: 100%;
+    }
+}
+
+/* Small screens (phones, below 576px) */
+@media (max-width: 576px) {
+    .hero .hero-content h2 {
+        font-size: 28px;
+    }
+
+    .hero .hero-content h3 {
+        font-size: 20px;
+    }
+
+    .hero .hero-content p {
+        font-size: 14px;
+    }
+
+    .service-box p,
+    .content p {
+        font-size: 14px;
+    }
+
+    .stat-box {
+        font-size: 16px;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .testimonals {
+        padding: 40px 20px;
+    }
+
+    .subscribe {
+        padding: 20px;
+    }
+
+    .email-section {
+        height: auto;
+        padding: 20px;
+    }
+
+    .email-section h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .email-section .email input {
+        font-size: 14px;
+    }
+
+    .footer-column h3 {
+        font-size: 16px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
